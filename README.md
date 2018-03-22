@@ -1,4 +1,4 @@
-# 
+# Go exp + Plan 9 driver for Shiny
 
 This repo is a snapshot of commit [`c5b29ce`](https://go-review.googlesource.com/c/exp/+/37621) made to Go's experimental packages repository.
 
