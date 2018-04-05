@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"net"
 
-	"golang.org/x/exp/io/i2c"
+	"github.com/niconan/shiny-plan9/io/i2c"
 )
 
 const (

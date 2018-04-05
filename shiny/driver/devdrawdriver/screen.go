@@ -7,7 +7,7 @@ package devdrawdriver
 import (
 	"encoding/binary"
 	"fmt"
-	"golang.org/x/exp/shiny/screen"
+	"github.com/niconan/shiny-plan9/shiny/screen"
 	"image"
 	//"sigint.ca/plan9/draw"
 	"image/color"

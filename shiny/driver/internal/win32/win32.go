@@ -7,7 +7,7 @@
 // Package win32 implements a partial shiny screen driver using the Win32 API.
 // It provides window, lifecycle, key, and mouse management, but no drawing.
 // That is left to windriver (using GDI) or gldriver (using DirectX via ANGLE).
-package win32 // import "golang.org/x/exp/shiny/driver/internal/win32"
+package win32 // import "github.com/niconan/shiny-plan9/shiny/driver/internal/win32"
 
 import (
 	"fmt"
@@ -16,7 +16,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"golang.org/x/exp/shiny/screen"
+	"github.com/niconan/shiny-plan9/shiny/screen"
 	"golang.org/x/mobile/event/key"
 	"golang.org/x/mobile/event/lifecycle"
 	"golang.org/x/mobile/event/mouse"
@@ -258,7 +258,7 @@ var (
 	KeyEvent       func(hwnd syscall.Handle, e key.Event)
 	LifecycleEvent func(hwnd syscall.Handle, e lifecycle.Stage)
 
-	// TODO: use the golang.org/x/exp/shiny/driver/internal/lifecycler package
+	// TODO: use the github.com/niconan/shiny-plan9/shiny/driver/internal/lifecycler package
 	// instead of or together with the LifecycleEvent callback?
 )
 

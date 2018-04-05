@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package x11driver provides the X11 driver for accessing a screen.
-package x11driver // import "golang.org/x/exp/shiny/driver/x11driver"
+package x11driver // import "github.com/niconan/shiny-plan9/shiny/driver/x11driver"
 
 // TODO: figure out what to say about the responsibility for users of this
 // package to check any implicit dependencies' LICENSEs. For example, the
@@ -17,8 +17,8 @@ import (
 	"github.com/BurntSushi/xgb/render"
 	"github.com/BurntSushi/xgb/shm"
 
-	"golang.org/x/exp/shiny/driver/internal/errscreen"
-	"golang.org/x/exp/shiny/screen"
+	"github.com/niconan/shiny-plan9/shiny/driver/internal/errscreen"
+	"github.com/niconan/shiny-plan9/shiny/screen"
 )
 
 // Main is called by the program's main function to run the graphical

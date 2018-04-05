@@ -5,8 +5,8 @@
 package driver
 
 import (
-	"golang.org/x/exp/shiny/driver/windriver"
-	"golang.org/x/exp/shiny/screen"
+	"github.com/niconan/shiny-plan9/shiny/driver/windriver"
+	"github.com/niconan/shiny-plan9/shiny/screen"
 )
 
 func main(f func(screen.Screen)) {

@@ -7,9 +7,9 @@
 package windriver
 
 import (
-	"golang.org/x/exp/shiny/driver/internal/errscreen"
-	"golang.org/x/exp/shiny/driver/internal/win32"
-	"golang.org/x/exp/shiny/screen"
+	"github.com/niconan/shiny-plan9/shiny/driver/internal/errscreen"
+	"github.com/niconan/shiny-plan9/shiny/driver/internal/win32"
+	"github.com/niconan/shiny-plan9/shiny/screen"
 )
 
 // Main is called by the program's main function to run the graphical

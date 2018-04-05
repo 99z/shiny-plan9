@@ -3,12 +3,12 @@
 // license that can be found in the LICENSE file.
 
 // Package spi allows users to read from and write to an SPI device.
-package spi // import "golang.org/x/exp/io/spi"
+package spi // import "github.com/niconan/shiny-plan9/io/spi"
 
 import (
 	"time"
 
-	"golang.org/x/exp/io/spi/driver"
+	"github.com/niconan/shiny-plan9/io/spi/driver"
 )
 
 // Mode represents the SPI mode number where clock parity (CPOL)

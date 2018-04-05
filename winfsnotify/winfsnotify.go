@@ -6,7 +6,7 @@
 
 // Package winfsnotify allows the user to receive
 // file system event notifications on Windows.
-package winfsnotify // import "golang.org/x/exp/winfsnotify"
+package winfsnotify // import "github.com/niconan/shiny-plan9/winfsnotify"
 
 import (
 	"errors"

@@ -10,7 +10,7 @@ import (
 	"image/color"
 	"image/draw"
 
-	"golang.org/x/exp/shiny/screen"
+	"github.com/niconan/shiny-plan9/shiny/screen"
 	"golang.org/x/mobile/gl"
 )
 

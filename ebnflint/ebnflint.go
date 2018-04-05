@@ -15,7 +15,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"golang.org/x/exp/ebnf"
+	"github.com/niconan/shiny-plan9/ebnf"
 )
 
 var fset = token.NewFileSet()

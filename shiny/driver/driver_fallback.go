@@ -13,8 +13,8 @@ package driver
 import (
 	"errors"
 
-	"golang.org/x/exp/shiny/driver/internal/errscreen"
-	"golang.org/x/exp/shiny/screen"
+	"github.com/niconan/shiny-plan9/shiny/driver/internal/errscreen"
+	"github.com/niconan/shiny-plan9/shiny/screen"
 )
 
 func main(f func(screen.Screen)) {

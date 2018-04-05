@@ -5,7 +5,7 @@
 package devdrawdriver
 
 import (
-	"golang.org/x/exp/shiny/screen"
+	"github.com/niconan/shiny-plan9/shiny/screen"
 	"image"
 	"image/color"
 	"image/draw"

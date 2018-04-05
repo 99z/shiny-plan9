@@ -3,10 +3,10 @@
 // license that can be found in the LICENSE file.
 
 // Package i2c allows users to read from and write to a slave I2C device.
-package i2c // import "golang.org/x/exp/io/i2c"
+package i2c // import "github.com/niconan/shiny-plan9/io/i2c"
 
 import (
-	"golang.org/x/exp/io/i2c/driver"
+	"github.com/niconan/shiny-plan9/io/i2c/driver"
 )
 
 const tenbitMask = 1 << 12

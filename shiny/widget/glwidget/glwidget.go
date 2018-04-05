@@ -10,8 +10,8 @@ import (
 	"image"
 	"image/draw"
 
-	"golang.org/x/exp/shiny/driver/gldriver"
-	"golang.org/x/exp/shiny/widget/node"
+	"github.com/niconan/shiny-plan9/shiny/driver/gldriver"
+	"github.com/niconan/shiny-plan9/shiny/widget/node"
 	"golang.org/x/mobile/gl"
 )
 

@@ -12,7 +12,7 @@ import (
 	"os"
 	"syscall"
 
-	"golang.org/x/exp/io/i2c/driver"
+	"github.com/niconan/shiny-plan9/io/i2c/driver"
 )
 
 // Devfs is an I2C driver that works against the devfs.

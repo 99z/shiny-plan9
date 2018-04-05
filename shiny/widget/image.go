@@ -8,8 +8,8 @@ import (
 	"image"
 	"image/draw"
 
-	"golang.org/x/exp/shiny/widget/node"
-	"golang.org/x/exp/shiny/widget/theme"
+	"github.com/niconan/shiny-plan9/shiny/widget/node"
+	"github.com/niconan/shiny-plan9/shiny/widget/theme"
 )
 
 // TODO: mask and maskPoint, not just src and srcRect.

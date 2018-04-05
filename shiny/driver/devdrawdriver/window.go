@@ -5,9 +5,9 @@
 package devdrawdriver
 
 import (
-	"golang.org/x/exp/shiny/driver/internal/drawer"
-	"golang.org/x/exp/shiny/driver/internal/event"
-	"golang.org/x/exp/shiny/screen"
+	"github.com/niconan/shiny-plan9/shiny/driver/internal/drawer"
+	"github.com/niconan/shiny-plan9/shiny/driver/internal/event"
+	"github.com/niconan/shiny-plan9/shiny/screen"
 	xdraw "golang.org/x/image/draw"
 	"golang.org/x/image/math/f64"
 	"golang.org/x/mobile/event/paint"

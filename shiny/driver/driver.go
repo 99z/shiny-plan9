@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package driver provides the default driver for accessing a screen.
-package driver // import "golang.org/x/exp/shiny/driver"
+package driver // import "github.com/niconan/shiny-plan9/shiny/driver"
 
 // TODO: figure out what to say about the responsibility for users of this
 // package to check any implicit dependencies' LICENSEs. For example, the
@@ -11,7 +11,7 @@ package driver // import "golang.org/x/exp/shiny/driver"
 // or OpenGL library.
 
 import (
-	"golang.org/x/exp/shiny/screen"
+	"github.com/niconan/shiny-plan9/shiny/screen"
 )
 
 // Main is called by the program's main function to run the graphical

@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package driver contains interfaces to be implemented by various I2C implementations.
-package driver // import "golang.org/x/exp/io/i2c/driver"
+package driver // import "github.com/niconan/shiny-plan9/io/i2c/driver"
 
 // Opener opens a connection to an I2C device to communicate with
 // the I2C address given. If the address is an 10-bit I2C address,

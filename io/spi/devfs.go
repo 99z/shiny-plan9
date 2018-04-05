@@ -12,7 +12,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"golang.org/x/exp/io/spi/driver"
+	"github.com/niconan/shiny-plan9/io/spi/driver"
 )
 
 const (

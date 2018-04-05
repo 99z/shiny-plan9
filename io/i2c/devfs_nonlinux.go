@@ -9,7 +9,7 @@ package i2c
 import (
 	"errors"
 
-	"golang.org/x/exp/io/i2c/driver"
+	"github.com/niconan/shiny-plan9/io/i2c/driver"
 )
 
 // Devfs is no-implementation so developers using cross compilation

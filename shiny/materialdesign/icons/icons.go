@@ -8,5 +8,5 @@
 // graphic format.
 //
 // See https://design.google.com/icons/ and
-// https://godoc.org/golang.org/x/exp/shiny/iconvg
+// https://godoc.org/github.com/niconan/shiny-plan9/shiny/iconvg
 package icons

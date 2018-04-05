@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package driver contains interfaces to be implemented by various SPI implementations.
-package driver // import "golang.org/x/exp/io/spi/driver"
+package driver // import "github.com/niconan/shiny-plan9/io/spi/driver"
 
 const (
 	Mode = iota

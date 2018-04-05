@@ -7,7 +7,7 @@
 //
 // Screens are not created directly. Instead, driver packages provide access to
 // the screen through a Main function that is designed to be called by the
-// program's main function. The golang.org/x/exp/shiny/driver package provides
+// program's main function. The github.com/niconan/shiny-plan9/shiny/driver package provides
 // the default driver for the system, such as the X11 driver for desktop Linux,
 // but other drivers, such as the OpenGL driver, can be explicitly invoked by
 // calling that driver's Main function. To use the default driver:
@@ -15,8 +15,8 @@
 //	package main
 //
 //	import (
-//		"golang.org/x/exp/shiny/driver"
-//		"golang.org/x/exp/shiny/screen"
+//		"github.com/niconan/shiny-plan9/shiny/driver"
+//		"github.com/niconan/shiny-plan9/shiny/screen"
 //		"golang.org/x/mobile/event/lifecycle"
 //	)
 //
@@ -52,7 +52,7 @@
 // implementation will generally work only with that driver's Buffer
 // implementation, and will not work with an arbitrary type that happens to
 // implement the Buffer methods.
-package screen // import "golang.org/x/exp/shiny/screen"
+package screen // import "github.com/niconan/shiny-plan9/shiny/screen"
 
 import (
 	"image"
